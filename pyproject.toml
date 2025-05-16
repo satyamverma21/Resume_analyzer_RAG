@@ -1,0 +1,16 @@
+[project]
+name = "legal-contractor-analyzer-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.25",
+    "langchain-chroma>=0.2.3",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.1.4",
+    "pypdf>=5.5.0",
+    "setuptools>=80.7.1",
+]
